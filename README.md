@@ -1,6 +1,6 @@
-# @@TITLE@@
+# The Happiness Project
 
-[![Build Status](https://travis-ci.org/wossname/@@DOMAIN@@.svg?branch=master)](https://travis-ci.org/wossname/@@DOMAIN@@)
+[![Build Status](https://travis-ci.org/wossname/thp.re.svg?branch=master)](https://travis-ci.org/wossname/thp.re)
 
 ## Notes on Doing Stuff
 

@@ -1,5 +1,5 @@
 # General configuration
-config[:domain]                  = '@@DOMAIN@@'
+config[:domain]                  = 'thp.re'
 config[:www_prefix]              = false
 config[:cloudfront_distribution] = '@@CLOUDFRONT_ID@@'
 config[:twitter_owner]           = 'wossname'
@@ -9,8 +9,8 @@ config[:gtm_id]                  = '@@GTM_ID@@'
 config[:google_plus_id]          = '@@GPLUS_ID@@'
 
 # Generic metadata
-config[:short_title] = '@@TITLE@@'
-config[:long_title]  = '@@LONG_TITLE@@'
+config[:short_title] = 'The Happiness Project'
+config[:long_title]  = 'Exploring the intersection of technology and mental health'
 config[:description] = "@@DESCRIPTION@@"
 config[:logo]        = 'wossname-industries.png'
 config[:company]       = 'Wossname Industries'
@@ -28,7 +28,7 @@ config[:related] = {
 
 # UTM-related bits
 config[:default_utm_medium] = 'website'
-config[:default_utm_campaign] = '@@TITLE@@'
+config[:default_utm_campaign] = 'The Happiness Project'
 
 # Calculated configuration
 config[:hostname]           = config[:www_prefix] ? "www.#{config[:domain]}" : config[:domain]

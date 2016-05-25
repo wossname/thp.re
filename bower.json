@@ -1,12 +1,12 @@
 {
-  "name": "@@DOMAIN@@",
-  "description": "@@TITLE@@",
+  "name": "thp.re",
+  "description": "The Happiness Project",
   "main": "",
   "authors": [
     "Graeme Mathieson"
   ],
   "license": "MIT",
-  "homepage": "@@URL@@",
+  "homepage": "https://thp.re/",
   "private": true,
   "ignore": [
     "**/.*",

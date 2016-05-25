@@ -1,12 +1,12 @@
 # General configuration
 config[:domain]                  = 'thp.re'
 config[:www_prefix]              = false
-config[:cloudfront_distribution] = '@@CLOUDFRONT_ID@@'
+config[:cloudfront_distribution] = 'E21VPA4X7O677H'
 config[:twitter_owner]           = 'wossname'
 config[:twitter_creator]         = 'mathie'
-config[:fb_app_id]               = '@@FB_APP_ID@@'
-config[:gtm_id]                  = '@@GTM_ID@@'
-config[:google_plus_id]          = '@@GPLUS_ID@@'
+config[:fb_app_id]               = '707611839381020'
+config[:gtm_id]                  = 'GTM-WS8CXP'
+config[:google_plus_id]          = '104385706113625839595'
 
 # Generic metadata
 config[:short_title] = 'The Happiness Project'

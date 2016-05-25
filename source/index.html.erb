@@ -7,10 +7,6 @@ sitemap_priority: 1.0
   <li><%= link_to 'Home', '', fragment: 'page-top', class: 'page-scroll' %></li>
 <% end %>
 
-<% content_for :navbar do %>
-  <li><%= link_to 'Welcome', '', fragment: 'welcome', class: 'page-scroll' %></li>
-<% end %>
-
 <section id="welcome" class="features navy-section">
   <div class="container">
     <div class="row">
@@ -25,6 +21,6 @@ sitemap_priority: 1.0
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <%= partial 'landing-page/contact' %>

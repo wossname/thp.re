@@ -11,6 +11,9 @@ install: rake deps
 deploy:
   provider: script
   skip_cleanup: true
-  script: "rvm $(< .ruby-version) do bundle exec rake deploy"
+  script: rvm $(< .ruby-version) do bundle exec rake deploy
   on:
     branch: master
+notifications:
+  slack:
+    secure: bCXV0+NrK6UR/ZmsTgSik1vFmUsxYhF7kP+OjbC9fLjES1Vb0AZt51pCWwgFuUWE7amiOxvrUeJdBylBX3wxxjJfUOpZYNlWmiKhni3hNevLSA8LhHucYerXPrTJ1gIH/8qozmwte2p1E1j5/7A9qC1B82Lrj/dv9SZj6YpvOQEuNWmJ2SJUkd6t6jsZlVCq0oeVLiLZAPg5Bafh5WfHtQBPFiUwxeD5ND5CkueV5CaE0zHFJijAo6ktZkoAf9zUNRiPTV9fd+NbzAgiPQjvI3y9LxsrCa07bZ7ye1Tc41PTe/seGcq5ieZ4PRv3PWjEOHecpo5ichPc7Ch23JlGaufCngVDkHf5xdfQ37omLq9D8RBI6VZn3jb+gyu1rRhiCTtVKLdy/xPd9LwAvFH7HwEqem87NPN5DgPZZPcIxzC/2tZM93s0B7VeUBk0K5pPY8EIESMAJgp2Myze/PsLtHEP6vXJ2DeM0KiESONmTchY+yo1ckLbF08rTnUmW7gsk5g25k02k3UEW3KygRPL3/lNjulizMPsI0BiZophxYW1IqiBs16POo5bmcXB+kk8ECt2VnSgldCWwg1gidVTEIuXBi2uwr+9DYzNl/WGQEj3qzoBrt5te9QlLtOV+eoSQuG46l2gFCla11EGdzCeoxLgsvWNESXTdVDYAkICi6I=

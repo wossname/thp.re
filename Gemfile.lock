@@ -28,7 +28,11 @@ GEM
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.2)
     contracts (0.13.0)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
+    eventmachine (1.2.0.1)
     excon (0.49.0)
     execjs (2.7.0)
     fast_blank (1.0.0)
@@ -57,6 +61,7 @@ GEM
       concurrent-ruby (~> 1.0)
     hashie (3.4.4)
     htmlcompressor (0.2.0)
+    http_parser.rb (0.6.0)
     i18n (0.7.0)
     ipaddress (0.8.3)
     json (1.8.3)
@@ -98,6 +103,10 @@ GEM
       servolux
       tilt (~> 1.4.1)
       uglifier (~> 3.0)
+    middleman-livereload (3.4.6)
+      em-websocket (~> 0.5.1)
+      middleman-core (>= 3.3)
+      rack-livereload (~> 0.3.15)
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
@@ -126,6 +135,8 @@ GEM
       activesupport (>= 3.1)
     parallel (1.8.0)
     rack (1.6.4)
+    rack-livereload (0.3.16)
+      rack
     rake (11.1.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
@@ -151,6 +162,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (>= 4.0.0)
   middleman-cloudfront!
+  middleman-livereload
   middleman-minify-html
   middleman-s3_sync
   mime-types

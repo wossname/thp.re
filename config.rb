@@ -9,13 +9,14 @@ config[:gtm_id]                  = '@@GTM_ID@@'
 config[:google_plus_id]          = '@@GPLUS_ID@@'
 
 # Generic metadata
-config[:short_title] = '@@TITLE@@'
-config[:long_title]  = '@@LONG_TITLE@@'
-config[:description] = "@@DESCRIPTION@@"
-config[:logo]        = 'wossname-industries.png'
+config[:short_title]   = '@@TITLE@@'
+config[:long_title]    = '@@LONG_TITLE@@'
+config[:description]   = "@@DESCRIPTION@@"
+config[:logo]          = 'wossname-industries.png'
 config[:company]       = 'Wossname Industries'
 config[:company_url]   = 'https://woss.name/'
 config[:telephone]     = '+44 (0)7949 077744'
+config[:location]      = 'Teignmouth, Devon, United Kingdom'
 config[:site_category] = "Software Development"
 config[:site_tags]     = [ ]
 

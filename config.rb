@@ -10,7 +10,7 @@ config[:google_plus_id]          = '104385706113625839595'
 
 # Generic metadata
 config[:short_title]   = 'The Happiness Project'
-config[:long_title]    = 'Exploring the intersection of technology and mental health'
+config[:long_title]    = "#{config[:short_title]}:Exploring the intersection of technology and mental health"
 config[:description]   = "We’re exploring tools & technologies that will allow people to measure, manage & improve their mental wellbeing. We’re performing experiments that allow us to better understand ourselves and our surrounding environment, so that we can figure out what makes us truly happy!"
 config[:logo]          = 'wossname-industries.png'
 config[:company]       = 'Wossname Industries'

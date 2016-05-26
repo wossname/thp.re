@@ -9,15 +9,15 @@ config[:gtm_id]                  = 'GTM-WS8CXP'
 config[:google_plus_id]          = '104385706113625839595'
 
 # Generic metadata
-config[:short_title] = 'The Happiness Project'
-config[:long_title]  = 'Exploring the intersection of technology and mental health'
-config[:description] = "@@DESCRIPTION@@"
-config[:logo]        = 'wossname-industries.png'
+config[:short_title]   = 'The Happiness Project'
+config[:long_title]    = 'Exploring the intersection of technology and mental health'
+config[:description]   = "We’re exploring tools & technologies that will allow people to measure, manage & improve their mental wellbeing. We’re performing experiments that allow us to better understand ourselves and our surrounding environment, so that we can figure out what makes us truly happy!"
+config[:logo]          = 'wossname-industries.png'
 config[:company]       = 'Wossname Industries'
 config[:company_url]   = 'https://woss.name/'
 config[:telephone]     = '+44 (0)7949 077744'
 config[:site_category] = "Software Development"
-config[:site_tags]     = [ ]
+config[:site_tags]     = [ 'Technology', 'Mental Health', 'Happiness', 'Wellbeing', 'Quantified Self', 'Measurement' ]
 
 config[:related] = {
   facebook: 'https://www.facebook.com/wossname-industries',

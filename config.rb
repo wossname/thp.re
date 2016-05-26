@@ -16,6 +16,7 @@ config[:logo]          = 'wossname-industries.png'
 config[:company]       = 'Wossname Industries'
 config[:company_url]   = 'https://woss.name/'
 config[:telephone]     = '+44 (0)7949 077744'
+config[:location]      = 'Teignmouth, Devon, United Kingdom'
 config[:site_category] = "Software Development"
 config[:site_tags]     = [ 'Technology', 'Mental Health', 'Happiness', 'Wellbeing', 'Quantified Self', 'Measurement' ]
 

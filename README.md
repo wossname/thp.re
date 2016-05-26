@@ -39,3 +39,32 @@ just because I want them to run as separate parts of the CI build.
 Unfortunately, middleman rebuilds the external assets *every* time you launch
 it (see [#1916](https://github.com/middleman/middleman/issues/1916)) and
 rebuilding them three times on every CI build seemed a bit wasteful.
+
+## Using this template for a project
+
+I'm trying to use the git subtree merge strategy so that I can maintain a
+repository with the basic template, then merge down changes to the template
+into each project that uses it. That way I can more easily keep things up to
+date when, for example, the Inspinia template itself is updated. So here's how
+to do that.
+
+### Updating a project with new changes to the template
+
+With an existing project, I want to be able to apply new template changes to
+that project. It should work with a git subtree merge. Here are the steps to do
+so.
+
+If the local working copy doesn't already have the remote setup for the
+template, do that first, then make sure all remotes are up to date:
+
+    git remote add template git@github.com:wossname/middleman-inspinia.git
+    git remote update
+
+Now to pull changes directly onto the master branch, check out the master
+branch and run:
+
+    git merge -s subtree template/master
+
+That should perform a subtree merge, and should merge in changes that have
+applied to the upstream template since it was last merged. I've yet to find out
+how to deal with conflicts, so I'll update this at that point.

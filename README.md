@@ -68,3 +68,14 @@ branch and run:
 That should perform a subtree merge, and should merge in changes that have
 applied to the upstream template since it was last merged. I've yet to find out
 how to deal with conflicts, so I'll update this at that point.
+
+Of course the more responsible thing to do is pull changes onto a new branch
+and submit a pull request:
+
+    git checkout -b update-upstream-template
+    git merge -s subtree template/master
+    # Deal with any conflicts
+    git push -u origin update-upstream-template
+    git pull-request
+
+That way the CI server gets to spot any suboptimal changes.
